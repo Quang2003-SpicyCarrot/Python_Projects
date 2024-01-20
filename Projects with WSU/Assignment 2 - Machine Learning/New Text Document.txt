@@ -1,0 +1,7 @@
+# Explanation: How to read the report below
+#CONVOLUTIONAL LAYER : (W - F + 2P)/S + 1
+#INVERSE CONVOLUTIONAL LAYER: (W - 1) * S - 2P + FROM
+#W = input size (default = 0) #image size 
+#F = kernel_size (default = 0)
+#P = padding (default = 0)
+#S = stride (default = 1)

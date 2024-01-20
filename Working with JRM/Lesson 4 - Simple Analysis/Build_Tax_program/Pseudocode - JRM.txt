@@ -1,0 +1,83 @@
+# Define function 'Hello Word' to display a welcome message
+Function Hello_World
+    Display "Hello World"
+
+# Define function 'Close Program' to display a closing message
+Function Close_Program
+    Display "Here is Our Data"
+
+# Define function 'Main Input' for the main input process
+Function Main_Input
+    Initialize Number_Employee to 0
+    Loop indefinitely
+        Increment Number_Employee by 1
+        Display Number of Employee
+        Call Input_Name_Employee
+        Call List_Input_Hours_Work
+        Call List_Input_Hours_Rate
+        Ask user if they want to continue or calculate (C to calculate, other keys to continue)
+        If user inputs 'C' or 'c'
+            Call Calculate_Function
+            Call Close_Program
+            Break the loop
+
+# Define function 'Employee's Name Input' to input and validate employee names
+Function Input_Name_Employee
+    Loop indefinitely
+        Get employee name input
+        If input is invalid (contains digits or is empty)
+            Display error message
+        Else
+            Save the valid name and break the loop
+
+# Define function 'Employee's Hours Work' to input and validate hours worked
+Function List_Input_Hours_Work
+    Loop indefinitely
+        Get hours worked input
+        If input is invalid (not all digits or is empty)
+            Display error message
+        Else
+            Save the valid input and break the loop
+
+# Define function 'Employee's Hours Rate' to input and validate hourly rate
+Function List_Input_Hours_Rate
+    Loop indefinitely
+        Get hourly rate input
+        If input is invalid (not numeric or is empty)
+            Display error message
+        Else
+            Save the valid input and break the loop
+
+# Define function 'Calculate' to calculate and store income, tax, and superannuation
+Function Calculate_Function
+    Display "Calculating Processing"
+    Initialize Order_Value to 0
+    Get the number of employees from the length of List_Name_Employee
+    Loop as long as there are unprocessed employees
+        Calculate and store income, income tax deduction, and superannuation deduction
+        Increment Order_Value
+        If all employees are processed
+            Call Display_Information
+            Break the loop
+
+# Define function 'Display Input Information' to display input and output data
+Function Display_Information
+    Prepare and display input and output data in a tabular format
+
+# Define function 'Running or Close Program' to control the start of the program
+Function Running_Program
+    Call Hello_World
+    Ask user to start the program (Y for YES, other keys for NO)
+    If user inputs 'Y' or 'y'
+        Call Main_Input
+    Else
+        Call Close_Program
+
+# Define data storage lists and headers
+Initialize lists for input and output data
+Define headers for input and output data
+
+# Define tax rates
+Values of Tax precentage
+
+# Start the program by calling Running_Program
