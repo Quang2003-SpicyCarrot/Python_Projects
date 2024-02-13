@@ -11,16 +11,17 @@ provided by: Western Sydney University
 ## Table of Contents
 - [Data Source](#data-source)
 - [Analysis Questions](#analysis-questions)
-- [Techniques and Libraries](#techniques-and-libraries-used)
+- [Library](#library)
+- [Method](#methods)
 - [Step Summary](#steps-summary)
 - [Review of Results](#quick-review-of-the-results)
 
 
 
 ## Data Source
-- bloodpressure-23.csv: Is a health record of a medical facility, which records information about daily practice of patients and other important measures, e.g.
-IQ, Sodium Levels, Genders, Marital Status, etc.  
-- mnist784: The MNIST (Modified National Institute of Standards and Technology) data is a record of 70,000 training images and 10,000 test images.
+- *bloodpressure-23.csv*: A medical facility's health record captures details regarding patients'daily practices and other significnat metrics, including IQ, sodium levels,
+genders, marital status, and more.
+- *mnist784*: The MNIST (Modified National Institute of Standards and Technology) data is a record of 70,000 training images and 10,000 test images.
 Each image is a 28 x 28 (784 pixels) handwritten digit from "0" to "9", where each pixel value is a grayscale integer between 0 and 255.
 
 
@@ -62,13 +63,12 @@ predicitons) of your model on the testing set.
 why
 
 
-## Techniques and libraries used:
-### Library:
+## Library:
 - ML: sklearn
 - Data Visualisation: matplotlib
 - Dataframe Manipulation: pandas, numpy, 
 
-
+## Methods:
 ### Task 1:
 - Polynomial regression, Multiple Linear Regression, Ridge regression
 - K-fold Cross-Validation 
