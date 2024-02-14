@@ -15,6 +15,7 @@ provided by: Western Sydney University
 - [Method](#methods)
 - [Step Summary](#steps-summary)
 - [Review of Results](#quick-review-of-the-results)
+- [Streamlit](#Streamlit)
 
 
 
@@ -121,3 +122,16 @@ Task 2: Classification
 ## Quick review of the results:
 ![SerumvsSys](GitImage/Serum-Chol%20vs%20Systolic.png)
 ![CVE-poly](GitImage/Cross-VE-Polynomial.png)
+
+
+## Streamlit:
+### Show your results with Streamlit
+Streamlit is an open-source Python library, which enables to build user interface in no time. By using this library, I added a small section to 
+test out my model prediction on your systolic blood pressure. 
+
+### Deployment on streamlit
+1. pull the repository to local computer
+2. install streamlit to your python library
+3. in the command line, type ```streamlit run sl_syspred.py ```. It is now deployed!
+
+### Demonstration with streamlit
