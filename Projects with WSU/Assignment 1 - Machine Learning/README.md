@@ -135,3 +135,4 @@ test out my model prediction on your systolic blood pressure.
 3. in the command line, type ```streamlit run sl_syspred.py ```. It is now deployed!
 
 ### Demonstration with streamlit
+![Streamlit GIF](GitImage/Streamlit_sys-ezgif.com-crop.gif)
