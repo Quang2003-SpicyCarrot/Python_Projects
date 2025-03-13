@@ -7,7 +7,7 @@ from sklearn.model_selection import cross_val_score
 from time import sleep
 
 #import data
-B_p = pd.read_csv('C:/Users/dongn/DongFile/dong;s junior (WSU)/Second Year - 2023/Semester 2/Machine Learning/Assignment/Assignment 1 - due/bloodpressure-23.csv')
+B_p = pd.read_csv(r"C:\Users\dongn\DongFile\DONG's university files\GIT files for Universities work\PythonFiles\Projects with WSU\Assignment 1 - Machine Learning\bloodpressure-23.csv")
 
 
 #Variables 
